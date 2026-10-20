@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080e19">
+  <meta name="description" content="Portfolio de Marwane Cissé — étudiant en cybersécurité, sécurité IT/OT, systèmes, réseaux et infrastructures PKI.">
+  <meta property="og:title" content="Marwane Cissé — Portfolio cybersécurité">
+  <meta property="og:description" content="Cybersécurité • Sécurité IT/OT • PKI et identité">
+  <title>Marwane Cissé | Portfolio Cybersécurité</title>
+  <style>
+    :root{color-scheme:dark;--bg:#080e19;--surface:#0f1b2b;--surface2:#142235;--line:#20354a;--txt:#eff6fa;--muted:#9aafc1;--accent:#67edd5;--accent2:#58aefa;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--txt);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration:none}button{font:inherit}::selection{background:#67edd555;color:#fff}
+    .container{width:min(calc(100% - 48px),var(--max));margin-inline:auto}
+    .skip{position:absolute;top:-100px;left:16px;background:var(--accent);color:#051521;padding:8px;z-index:50}.skip:focus{top:10px}
+    .glow{position:absolute;pointer-events:none;border-radius:50%;filter:blur(90px);opacity:.15}.glow-a{width:430px;height:380px;background:#167b95;top:80px;right:-120px}.glow-b{width:300px;height:350px;background:#1a6094;top:500px;left:-140px}
+    header{position:sticky;top:0;z-index:20;background:#080e19e8;border-bottom:1px solid #ffffff0e;backdrop-filter:blur(16px)}
+    .head{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-size:25px;font-weight:850;letter-spacing:-1.2px}.brand span{color:var(--accent)}.brand small{font-size:11px;color:var(--muted);letter-spacing:.06em;margin-left:12px;font-weight:550}
+    nav{display:flex;align-items:center;gap:30px}nav a{color:#b8c9d7;font-size:13px;font-weight:600;transition:color .2s}nav a:hover,nav a:focus-visible{color:var(--accent)}
+    .nav-contact{border:1px solid #54bfb4a3;padding:10px 16px;border-radius:9px;color:var(--accent)}
+    .mobile-menu{display:none;background:#13283a;color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:8px 12px;cursor:pointer}
+    .hero{min-height:650px;padding:105px 0 95px;display:grid;grid-template-columns:1.07fr .93fr;gap:70px;align-items:center;position:relative}
+    .eyebrow{display:inline-flex;gap:10px;align-items:center;font-size:11px;font-weight:750;letter-spacing:.11em;text-transform:uppercase;color:var(--accent);border:1px solid #225249;border-radius:99px;padding:8px 12px;background:#0d2627}
+    .dot{width:7px;height:7px;background:var(--accent);border-radius:50%;box-shadow:0 0 13px var(--accent)}
+    .intro{margin:28px 0 2px;color:#a8becc;font-size:17px}
+    h1,h2,h3,p{margin-top:0}h1,h2,h3{letter-spacing:-.045em;line-height:1.13}h1{font-size:clamp(64px,7vw,104px);line-height:1;margin:0 0 24px}h1 span{color:var(--accent)}
+    .hero-role{font-size:clamp(19px,2.4vw,27px);font-weight:650;letter-spacing:-.02em;margin-bottom:16px}
+    .hero-role strong{color:var(--accent2);font-weight:750}
+    .lead{color:var(--muted);font-size:15px;line-height:1.9;max-width:540px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:29px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;border:1px solid var(--line);padding:13px 19px;border-radius:9px;font-size:13px;font-weight:780;transition:transform .2s,background .2s,border-color .2s}.btn:hover{transform:translateY(-2px)}
+    .primary{background:var(--accent);border-color:var(--accent);color:#062429}.primary:hover{background:#a2ffec}.secondary{background:#122338;color:#e8f4fa}.secondary:hover{border-color:#57a6c2}
+    .tags{margin-top:33px;display:flex;gap:9px;flex-wrap:wrap}.tags span{font-family:ui-monospace,monospace;color:#9dbed0;border:1px solid #2b4054;border-radius:5px;padding:5px 9px;font-size:10px;letter-spacing:.03em}
+    .visual{position:relative;min-height:390px;display:flex;align-items:center;justify-content:center}
+    .circle{position:absolute;border:1px solid #21635b52;border-radius:50%;width:470px;aspect-ratio:1;max-width:100%;box-shadow:0 0 100px #23867c0e inset}.circle:before{content:"";position:absolute;inset:55px;border:1px dashed #31687a77;border-radius:50%}
+    .terminal{position:relative;background:#0b1727;border:1px solid #2d5561;box-shadow:0 30px 90px #0009,0 0 50px #39b2a20d;border-radius:14px;transform:rotate(1.4deg);overflow:hidden;width:100%;max-width:460px}
+    .t-head{background:#14253a;display:flex;align-items:center;justify-content:space-between;padding:12px 17px;border-bottom:1px solid var(--line);font:11px ui-monospace,monospace;color:#a9bbca}
+    .lights{display:flex;gap:6px}.lights i{width:8px;height:8px;border-radius:50%;background:#ef887d}.lights i:nth-child(2){background:#e5c778}.lights i:nth-child(3){background:#6bd6ae}
+    .t-body{padding:30px 25px 22px;font:13px/2 ui-monospace,"Cascadia Code",monospace;color:#d5eaf3;white-space:pre-line}
+    .key{color:#65e5ce}.val{color:#a9c9ff}.comment{color:#688b98}.t-bottom{padding:11px 18px;border-top:1px solid var(--line);font:11px ui-monospace,monospace;color:#8bb8ad;display:flex;justify-content:space-between;align-items:center}.online{display:inline-block;width:7px;height:7px;background:var(--accent);border-radius:50%;margin-right:7px}
+    .ribbon{border-block:1px solid #20394a;background:#101d2c}.ribbon-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;color:#7fa0b1;font:11px ui-monospace,monospace;letter-spacing:.1em}.ribbon-inner b{color:var(--accent)}
+    section.section{padding-block:105px}section.alt{background:#0b1523;border-block:1px solid #1931474f}
+    .section-title{display:flex;justify-content:space-between;gap:35px;align-items:end;margin-bottom:38px}.kicker{font:11px ui-monospace,monospace;letter-spacing:.13em;color:var(--accent);display:block;margin-bottom:13px}.section-title h2{font-size:clamp(34px,4.3vw,52px);margin:0}.section-title h2 span{color:#78cdbc}.section-title>p{max-width:300px;font-size:13px;color:var(--muted);margin:0}
+    .about-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:22px}
+    .panel{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:34px}
+    .about-text .major{font-size:23px;font-weight:550;line-height:1.5;letter-spacing:-.025em;color:#e7f3f6}.about-text .major strong{color:var(--accent)}
+    .about-text p:not(.major){color:var(--muted);font-size:14px;line-height:1.9;margin-bottom:0}
+    .metrics{display:grid;gap:15px}.metric{border:1px solid var(--line);background:#122235;border-radius:13px;padding:22px}.metric small{display:block;color:#92aabb;font:11px ui-monospace,monospace;margin-bottom:9px}.metric strong{font-size:18px;line-height:1.35}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{padding:29px 25px;min-height:275px;background:linear-gradient(140deg,#122337,#0e1c2c);border:1px solid #294158;border-radius:15px;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-4px);border-color:#4eacb3}
+    .card-icon{font-size:30px;color:var(--accent);display:block;margin-bottom:23px}.card h3{font-size:20px;margin-bottom:12px}.card p{font-size:13px;color:var(--muted);line-height:1.85}.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:21px}.chips span{color:#b6d1de;font:10px ui-monospace,monospace;background:#1d3447;border:1px solid #2b4657;padding:6px 8px;border-radius:5px}
+    .timeline{border-left:1px solid #366c75;margin-left:6px}.entry{position:relative;display:grid;grid-template-columns:180px 1fr;gap:25px;padding-left:35px;padding-bottom:47px}.entry:last-child{padding-bottom:0}.entry:before{content:"";position:absolute;left:-6px;top:6px;width:10px;height:10px;background:var(--bg);border:2px solid var(--accent);border-radius:50%}
+    .when{font:11px ui-monospace,monospace;color:#96b6c5;padding-top:6px}.entry h3{font-size:23px;margin:0 0 8px}.entry .where{font-size:13px;color:var(--accent);margin:0 0 13px}.entry p{color:var(--muted);font-size:14px;max-width:640px;line-height:1.85}
+    .pending{min-height:220px;border:1px dashed #4a6e80;border-radius:15px;display:flex;align-items:center;justify-content:center;flex-direction:column;padding:35px;text-align:center;background:radial-gradient(circle at center,#1d4a4930,transparent 70%)}.pending .glyph{font:36px ui-monospace,monospace;color:var(--accent)}.pending h3{font-size:24px;margin:13px 0}.pending p{color:var(--muted);font-size:14px;max-width:590px;margin:0}
+    .contact{border-radius:19px;border:1px solid #336260;background:linear-gradient(115deg,#173341,#102538 85%);padding:58px 55px}.contact h2{max-width:660px;font-size:clamp(33px,4vw,51px);margin:10px 0 18px}.contact h2 span{color:var(--accent)}.contact p{color:#b4c9d2;font-size:14px;max-width:560px;line-height:1.9}
+    footer{border-top:1px solid var(--line);padding:27px 0;color:#8ba3b3;font:11px ui-monospace,monospace}.foot{display:flex;justify-content:space-between;align-items:center;gap:15px}.foot a:hover{color:var(--accent)}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;gap:18px;padding-top:75px}.visual{min-height:350px}.terminal{max-width:520px}.cards{grid-template-columns:1fr}.card{min-height:0}.about-grid{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(3,1fr)}.metric{padding:18px}.metric strong{font-size:15px}}
+    @media(max-width:650px){.container{width:min(calc(100% - 34px),var(--max))}.head{height:69px}.brand small{display:none}.mobile-menu{display:inline-flex}.head nav{display:none;position:absolute;top:69px;left:0;right:0;background:#0c1828;border-bottom:1px solid var(--line);padding:22px;flex-direction:column;align-items:stretch;gap:20px}.head nav.open{display:flex}.hero{padding-top:65px;padding-bottom:70px;min-height:0}.hero h1{font-size:clamp(58px,15vw,80px)}.visual{min-height:330px}.circle{width:340px}.t-body{font-size:11px;padding:21px 15px}.t-bottom{font-size:9px}.ribbon-inner{justify-content:center;font-size:9px;gap:12px}section.section{padding-block:75px}.section-title{flex-direction:column;align-items:start;gap:14px}.section-title>p{max-width:unset}.panel{padding:25px}.about-text .major{font-size:19px}.metrics{grid-template-columns:1fr}.entry{grid-template-columns:1fr;gap:6px;padding-left:25px}.entry h3{font-size:21px}.contact{padding:37px 24px}.actions .btn{width:100%}.foot{flex-wrap:wrap}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <a href="#contenu" class="skip">Passer au contenu</a>
+  <div class="glow glow-a" aria-hidden="true"></div><div class="glow glow-b" aria-hidden="true"></div>
+  <header>
+    <div class="container head">
+      <a class="brand" href="#accueil" aria-label="Accueil">MC<span>_</span><small>/ CYBERSÉCURITÉ</small></a>
+      <button id="menu" class="mobile-menu" type="button" aria-controls="nav" aria-expanded="false">☰ Menu</button>
+      <nav id="nav" aria-label="Navigation principale">
+        <a href="#apropos">À propos</a><a href="#competences">Compétences</a><a href="#experience">Parcours</a><a href="#projets">Projets</a><a class="nav-contact" href="#contact">Contact ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenu">
+    <section class="hero container" id="accueil">
+      <div>
+        <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Étudiant en 5ᵉ année • Cybersécurité</span>
+        <p class="intro">Bonjour, je suis</p>
+        <h1>Marwane<br><span>Cissé.</span></h1>
+        <p class="hero-role">Futur consultant en <strong>sécurité informatique.</strong></p>
+        <p class="lead">Je développe mes compétences en sécurité des infrastructures, des systèmes et des environnements IT/OT. Mon objectif : contribuer à des systèmes plus résilients et mieux protégés.</p>
+        <div class="actions"><a class="btn primary" href="#apropos">Découvrir mon profil ↗</a><a class="btn secondary" href="https://github.com/marwanecisse" target="_blank" rel="noopener noreferrer">Mon GitHub ↗</a></div>
+        <div class="tags"><span>IT / OT SECURITY</span><span>PKI & IDENTITÉ</span><span>INFRASTRUCTURE</span></div>
+      </div>
+      <div class="visual" aria-label="Illustration de mes domaines de spécialisation">
+        <div class="circle" aria-hidden="true"></div>
+        <div class="terminal">
+          <div class="t-head"><span class="lights" aria-hidden="true"><i></i><i></i><i></i></span>profile.yaml<span>⌘</span></div>
+          <div class="t-body"><span class="key">identity</span>:
+  role: <span class="val">"Cybersecurity Student"</span>
+  target: <span class="val">"Security Consultant"</span>
+
+<span class="key">focus</span>:
+  - infrastructure_security
+  - it_ot_security
+  - pki_and_identity
+
+<span class="comment"># learn · build · secure</span>
+<span class="key">▋</span></div>
+          <div class="t-bottom"><span><span class="online"></span> Profil en construction</span><span>2026</span></div>
+        </div>
+      </div>
+    </section>
+    <div class="ribbon"><div class="container ribbon-inner"><span>SECURITY BY DESIGN</span><b>✦</b><span>CONTINUOUS LEARNING</span><b>✦</b><span>IT & OT SECURITY</span><b>✦</b><span>TRUST & IDENTITY</span></div></div>
+    <section class="section container" id="apropos">
+      <div class="section-title"><div><span class="kicker">01 / IDENTITÉ</span><h2>À propos <span>de moi.</span></h2></div><p>Une approche technique et rigoureuse de la cybersécurité.</p></div>
+      <div class="about-grid">
+        <div class="panel about-text"><p class="major">Me former pour <strong>comprendre les risques</strong>, <strong>sécuriser les infrastructures</strong> et accompagner les organisations.</p><p>Actuellement en cinquième année d'études en cybersécurité, je m'intéresse à la protection des systèmes, des réseaux et des environnements industriels. Je souhaite évoluer vers le conseil en sécurité informatique et contribuer à des projets concrets.</p></div>
+        <div class="metrics"><div class="metric"><small>ORIENTATION</small><strong>Conseil en cybersécurité</strong></div><div class="metric"><small>DOMAINES</small><strong>IT / OT · PKI · Réseaux</strong></div><div class="metric"><small>APPROCHE</small><strong>Apprendre · Analyser · Protéger</strong></div></div>
+      </div>
+    </section>
+    <section class="section alt" id="competences">
+      <div class="container">
+        <div class="section-title"><div><span class="kicker">02 / COMPÉTENCES</span><h2>Domaines <span>techniques.</span></h2></div><p>Des connaissances et outils développés au cours de ma formation et de mes expériences.</p></div>
+        <div class="cards">
+          <article class="card"><span class="card-icon" aria-hidden="true">◇</span><h3>PKI & identité</h3><p>Infrastructure à clés publiques, cycle de vie des certificats numériques, authentification et chaîne de confiance.</p><div class="chips"><span>PKI</span><span>X.509</span><span>EJBCA</span></div></article>
+          <article class="card"><span class="card-icon" aria-hidden="true">⌘</span><h3>Systèmes & réseaux</h3><p>Environnements Linux et Windows, notions d'administration, virtualisation et fondamentaux réseau.</p><div class="chips"><span>Linux</span><span>Windows</span><span>Réseaux</span><span>VMware</span></div></article>
+          <article class="card"><span class="card-icon" aria-hidden="true">⬡</span><h3>Sécurité IT / OT</h3><p>Enjeux de protection des infrastructures informatiques et industrielles, communications et confiance.</p><div class="chips"><span>IT Security</span><span>OT Security</span><span>OPC UA</span></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="section container" id="experience">
+      <div class="section-title"><div><span class="kicker">03 / PARCOURS</span><h2>Expérience & <span>formation.</span></h2></div><p>Une formation technique complétée par une expérience pratique.</p></div>
+      <div class="timeline">
+        <article class="entry"><div class="when">EXPÉRIENCE DE STAGE</div><div><h3>Intégration d'une PKI avec un GDS</h3><p class="where">DataProtect · Environnement OPC UA</p><p>Stage consacré à l'intégration d'une infrastructure PKI privée avec un Global Discovery Server, afin de gérer les certificats dans un environnement de démonstration industriel.</p><div class="chips"><span>EJBCA</span><span>PKI</span><span>GDS</span><span>OPC UA</span><span>Docker</span></div></div></article>
+        <article class="entry"><div class="when">FORMATION ACTUELLE</div><div><h3>5ᵉ année · Cybersécurité</h3><p class="where">Formation supérieure en sécurité informatique</p><p>Approfondissement des bases de la sécurité des systèmes, des réseaux et des infrastructures.</p></div></article>
+      </div>
+    </section>
+    <section class="section alt" id="projets">
+      <div class="container">
+        <div class="section-title"><div><span class="kicker">04 / RÉALISATIONS</span><h2>Mes <span>projets.</span></h2></div><p>Une sélection de réalisations qui présenteront mes démarches et résultats.</p></div>
+        <div class="pending"><span class="glyph" aria-hidden="true">{ }</span><h3>Projets à venir</h3><p>Cette section sera complétée avec mes projets sélectionnés : objectifs, technologies, démarche, résultats et démonstrations.</p></div>
+      </div>
+    </section>
+    <section class="section container" id="contact">
+      <div class="contact"><span class="kicker">05 / CONTACT</span><h2>Échangeons autour de <span>la cybersécurité.</span></h2><p>Une opportunité de stage, un échange technique ou une collaboration ? Retrouvez-moi sur LinkedIn ou GitHub.</p><div class="actions"><a class="btn primary" href="https://www.linkedin.com/in/marwane-cisse-78b6b5263/" target="_blank" rel="noopener noreferrer">Me contacter sur LinkedIn ↗</a><a class="btn secondary" href="https://github.com/marwanecisse" target="_blank" rel="noopener noreferrer">Voir mon GitHub ↗</a></div></div>
+    </section>
+  </main>
+  <footer><div class="container foot"><span>© <span id="year">2026</span> Marwane Cissé · Cybersécurité</span><a href="#accueil">Retour en haut ↑</a></div></footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const button = document.getElementById('menu');
+    const nav = document.getElementById('nav');
+    button.addEventListener('click', function () {
+      const opened = nav.classList.toggle('open');
+      button.setAttribute('aria-expanded', opened ? 'true' : 'false');
+      button.textContent = opened ? '✕ Fermer' : '☰ Menu';
+    });
+    nav.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        nav.classList.remove('open');
+        button.setAttribute('aria-expanded','false');
+        button.textContent = '☰ Menu';
+      });
+    });
+  </script>
+</body>
+</html>
