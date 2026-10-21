@@ -1,0 +1,99 @@
+%PDF-1.4
+%abcd
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 5479 >>
+stream
+BT /F2 19 Tf 1 0 0 1 39.0 805.0 Tm (MARWANE MOUAWIYAH CISSÉ) Tj ET
+BT /F2 10 Tf 1 0 0 1 40.0 783.0 Tm (Élève-ingénieur en cybersécurité | Pentesting & sécurité des infrastructures) Tj ET
+BT /F1 8.45 Tf 1 0 0 1 40.0 767.0 Tm (Rabat, Maroc  |  +212 6 10 09 34 21  |  marwaneemouawiya@gmail.com) Tj ET
+BT /F1 7.6 Tf 1 0 0 1 40.0 753.0 Tm (Portfolio: marwanecisse.github.io   |   github.com/marwanecisse   |   linkedin.com/in/marwane-cisse-78b6b5263) Tj ET
+BT /F2 10 Tf 1 0 0 1 39.0 736.0 Tm (PROFIL) Tj ET
+0.35 w 38 729.0 m 557 729.0 l S
+BT /F1 8.55 Tf 1 0 0 1 40.0 716.0 Tm (Élève-ingénieur en 5e année de cybersécurité à l’Université Internationale de Rabat, orienté pentesting, sécurité) Tj ET
+BT /F1 8.55 Tf 1 0 0 1 40.0 704.0 Tm (offensive et protection des infrastructures. Expérience en audit web, sécurité Windows/Linux et intégration PKI en) Tj ET
+BT /F1 8.55 Tf 1 0 0 1 40.0 692.0 Tm (environnement IT/OT. Recherche d’un stage de fin d’études \(PFE\) en cybersécurité.) Tj ET
+BT /F2 10 Tf 1 0 0 1 39.0 669.0 Tm (EXPÉRIENCES PROFESSIONNELLES) Tj ET
+0.35 w 38 662.0 m 557 662.0 l S
+BT /F2 9.1 Tf 1 0 0 1 40.0 649.0 Tm (Stagiaire cybersécurité — PKI et sécurité IT/OT) Tj ET
+BT /F1 8.2 Tf 1 0 0 1 475.0 649.0 Tm (Été 2026) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 637.0 Tm (DataProtect) Tj ET
+BT /F1 8.05 Tf 1 0 0 1 48.0 625.0 Tm (• Intégration d’une PKI privée \(EJBCA/Docker\) avec un GDS pour gérer les certificats OPC UA.) Tj ET
+BT /F1 8.05 Tf 1 0 0 1 48.0 613.8 Tm (• Configuration de la confiance, essais de renouvellement Push/Pull et validation des échanges industriels.) Tj ET
+BT /F2 9.1 Tf 1 0 0 1 40.0 599.6 Tm (Stagiaire cybersécurité — Pentesting & OSINT) Tj ET
+BT /F1 8.2 Tf 1 0 0 1 475.0 599.6 Tm (Été 2025) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 587.6 Tm (Université Internationale de Rabat \(UIR\)) Tj ET
+BT /F1 8.05 Tf 1 0 0 1 48.0 575.6 Tm (• Audit de l’application de laboratoire OWASP Juice Shop : SQLi, XSS, contrôle d’accès défaillant et) Tj ET
+BT /F1 8.05 Tf 1 0 0 1 48.0 564.4 Tm (cartographie OSINT de la surface d’attaque.) Tj ET
+BT /F2 9.1 Tf 1 0 0 1 40.0 550.2 Tm (Stagiaire développeur web) Tj ET
+BT /F1 8.2 Tf 1 0 0 1 475.0 550.2 Tm (Été 2024) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 538.2 Tm (MyStarto — Côte d’Ivoire) Tj ET
+BT /F1 8.05 Tf 1 0 0 1 48.0 526.2 Tm (• Développement full-stack d’une plateforme e-commerce de produits reconditionnés : interface utilisateur et) Tj ET
+BT /F1 8.05 Tf 1 0 0 1 48.0 515.0 Tm (back-office.) Tj ET
+BT /F2 10 Tf 1 0 0 1 39.0 489.8 Tm (PROJETS ACADÉMIQUES SÉLECTIONNÉS) Tj ET
+0.35 w 38 482.8 m 557 482.8 l S
+BT /F2 9 Tf 1 0 0 1 40.0 469.8 Tm (Enterprise OS Security — Active Directory & Linux) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 512.0 469.8 Tm (2026) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 457.8 Tm (Conception d’un laboratoire Windows Server/AD, Linux et Kali ; tests contrôlés, analyse de journaux, durcissement) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 446.7 Tm (\(GPO, SSH/PAM, Fail2Ban\) et vérification des protections.) Tj ET
+BT /F2 9 Tf 1 0 0 1 40.0 431.6 Tm (Zigbee Security — Sécurité IoT) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 512.0 431.6 Tm (2026) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 419.6 Tm (Simulation Proteus/Arduino d’un réseau inspiré de Zigbee \(UART\) ; analyse du rejeu, de l’usurpation, de) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 408.5 Tm (l’injection et du déni de service ; proposition de contre-mesures.) Tj ET
+BT /F2 9 Tf 1 0 0 1 40.0 393.4 Tm (Cloud Attendance — Reconnaissance faciale) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 512.0 393.4 Tm (2025) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 381.4 Tm (Application de gestion des présences : Azure Functions, Face API, DeepFace, MySQL et React ; rapports PDF et) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 370.3 Tm (notifications.) Tj ET
+BT /F2 9 Tf 1 0 0 1 40.0 355.2 Tm (Morocco Smart Guide — Assistant touristique IA) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 512.0 355.2 Tm (2026) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 343.2 Tm (Assistant avec chatbot RAG, recherche FAISS et itinéraires personnalisés : Python, FastAPI, Streamlit et Hugging) Tj ET
+BT /F1 8.1 Tf 1 0 0 1 40.0 332.1 Tm (Face.) Tj ET
+BT /F2 10 Tf 1 0 0 1 39.0 306.0 Tm (FORMATION) Tj ET
+0.35 w 38 299.0 m 557 299.0 l S
+BT /F2 8.8 Tf 1 0 0 1 40.0 286.0 Tm (Cycle ingénieur — Spécialité Cybersécurité) Tj ET
+BT /F1 8 Tf 1 0 0 1 482.0 286.0 Tm (2024 – présent) Tj ET
+BT /F1 8 Tf 1 0 0 1 40.0 274.5 Tm (UIR — 5e année) Tj ET
+BT /F2 8.8 Tf 1 0 0 1 40.0 261.5 Tm (Classe préparatoire intégrée) Tj ET
+BT /F1 8 Tf 1 0 0 1 482.0 261.5 Tm (2022 – 2024) Tj ET
+BT /F1 8 Tf 1 0 0 1 40.0 250.0 Tm (Université Internationale de Rabat) Tj ET
+BT /F2 8.8 Tf 1 0 0 1 40.0 237.0 Tm (Baccalauréat scientifique) Tj ET
+BT /F1 8 Tf 1 0 0 1 40.0 225.5 Tm (Burkina Faso) Tj ET
+BT /F2 10 Tf 1 0 0 1 39.0 201.5 Tm (COMPÉTENCES TECHNIQUES) Tj ET
+0.35 w 38 194.5 m 557 194.5 l S
+BT /F1 8.15 Tf 1 0 0 1 40.0 181.5 Tm (Offensif et défensif : Pentesting web, OWASP Top 10, OSINT, Nmap, Burp Suite, Wireshark, analyse de logs,) Tj ET
+BT /F1 8.15 Tf 1 0 0 1 40.0 170.1 Tm (hardening.) Tj ET
+BT /F1 8.15 Tf 1 0 0 1 40.0 158.7 Tm (Systèmes, identité et OT : Active Directory, Windows Server, Linux, SSH/PAM, PKI/X.509, EJBCA, GDS, OPC UA.) Tj ET
+BT /F1 8.15 Tf 1 0 0 1 40.0 147.3 Tm (Cloud, développement et IA : Azure, Docker, VMware, Python, Bash, C/C++, React, MySQL, FastAPI, RAG/FAISS.) Tj ET
+BT /F2 10 Tf 1 0 0 1 39.0 124.9 Tm (LANGUES) Tj ET
+0.35 w 38 117.9 m 557 117.9 l S
+BT /F1 8.3 Tf 1 0 0 1 40.0 104.9 Tm (Français : courant, maîtrise professionnelle | Anglais : intermédiaire \(technique\)) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000263 00000 n 
+0000000360 00000 n 
+0000000462 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+5992
+%%EOF
