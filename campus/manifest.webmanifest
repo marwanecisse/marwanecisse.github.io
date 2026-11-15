@@ -1,0 +1,16 @@
+{
+  "name": "Campus · Mon programme",
+  "short_name": "Campus",
+  "description": "Mon emploi du temps ING5 CYB : premier cours, fin de journée, heures creuses, prochaine salle.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f5fa",
+  "theme_color": "#f3f5fa",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
