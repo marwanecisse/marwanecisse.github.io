@@ -2,7 +2,7 @@
  * Page : réseau d'abord (3 s max) pour récupérer la dernière version du planning,
  *        sinon version en cache → l'application s'ouvre même sans connexion.
  * Icônes / manifeste : cache d'abord. */
-const VERSION = '20261113050307';
+const VERSION = '20261115003253';
 const CACHE = 'campus-' + VERSION;
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
