@@ -2,7 +2,7 @@
  * Page : réseau d'abord (3 s max) pour récupérer la dernière version du planning,
  *        sinon version en cache → l'application s'ouvre même sans connexion.
  * Icônes / manifeste : cache d'abord. */
-const VERSION = '20261115003253';
+const VERSION = '20261115004856';
 const CACHE = 'campus-' + VERSION;
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
@@ -29,5 +29,6 @@ self.addEventListener('fetch', (e) => {
     })());
     return;
   }
+  if (/\/data\.json$/.test(new URL(req.url).pathname)) return; // planning partagé : toujours le réseau
   e.respondWith(caches.match(req).then((hit) => hit || fetch(req)));
 });
