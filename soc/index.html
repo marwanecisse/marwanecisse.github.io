@@ -119,6 +119,8 @@ footer{border-top:1px solid var(--border);padding:25px 0;color:var(--muted);font
 .version-switch:hover{color:var(--blue);border-color:var(--blue)}
 .project-disclaimer a{color:var(--blue);font-weight:700}
 .socials{flex-wrap:wrap;gap:12px 26px}
+.cert-badge{align-self:flex-start;margin-top:3px;font:700 9px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:#e3b557;border:1px solid color-mix(in srgb,#e3b557 45%,transparent);background:color-mix(in srgb,#e3b557 9%,transparent);padding:3px 7px;border-radius:5px}
+:root[data-theme=light] .cert-badge{color:#8a5a00;border-color:#d9b46a;background:#fbf3e2}
 </style>
 </head>
 <body>
@@ -255,11 +257,11 @@ footer{border-top:1px solid var(--border);padding:25px 0;color:var(--muted);font
 <article class="smallpanel certification-card">
   <div class="smallpanel-icon" aria-hidden="true">✧</div>
   <h3 data-i18n="certTitle">Certifications &amp; formations</h3>
-  <p data-i18n="certStatus">En cours de préparation — non encore obtenues.</p>
+  <p data-i18n="certStatus">Formations en cours : certifications et badges pas encore obtenus.</p>
   <ul class="cert-list">
-    <li><span class="cert-provider">AWS Academy</span><strong>Cloud Security Foundations</strong></li>
-    <li><span class="cert-provider">OPSWAT Academy</span><strong>Introduction to Critical Infrastructure Protection (ICIP)</strong></li>
-    <li><span class="cert-provider">OPSWAT Academy</span><strong>Cybersecurity Fundamentals Associate (OCFA)</strong></li>
+    <li><span class="cert-provider">AWS Academy</span><strong>Cloud Security Foundations</strong><span class="cert-badge" data-i18n="inProgress">En cours</span></li>
+    <li><span class="cert-provider">OPSWAT Academy</span><strong>Introduction to Critical Infrastructure Protection (ICIP)</strong><span class="cert-badge" data-i18n="inProgress">En cours</span></li>
+    <li><span class="cert-provider">OPSWAT Academy</span><strong>Cybersecurity Fundamentals Associate (OCFA)</strong><span class="cert-badge" data-i18n="inProgress">En cours</span></li>
   </ul>
   <p class="cert-additional" data-i18n="certOnboard">Autre module en cours : OPSWAT Portal Orientation Guide (module d’accueil).</p>
 </article></div></div></div></section>
@@ -280,7 +282,7 @@ const I18N={
   p4cat:'IOT SECURITY · TEAM ACADEMIC PROJECT',p4title:'Zigbee Security — IoT Network Analysis',p4desc:'Proteus simulation of a Zigbee-inspired IoT network: replay, spoofing, command injection and flooding scenarios, followed by protection measures (node authentication, integrity, anti-replay).',
   projectDisclaimer:'Academic team projects and course labs. My other projects (Cloud Attendance, Morocco Smart Guide) are in the <a href="../?lang=en#projets">general version of the portfolio</a>.',
   expTitle:'Professional <em>experience.</em>',expLead:'Three internships that gave me knowledge of vulnerabilities, IT/OT infrastructures and web applications.',internship:'INTERNSHIP',dataprotectDate:'Summer 2026',uirInternDate:'Summer 2025',mystartoDate:'Summer 2024',expRole:'Integrating a PKI with a GDS',expDesc:'Contributed to integrating a private PKI with a Global Discovery Server (GDS) for OPC UA application certificate management. Worked with EJBCA, Docker and trust management across components.',uirInternRole:'Cybersecurity Intern — Pentesting &amp; OSINT',uirInternCompany:'International University of Rabat (UIR)',uirInternDesc:'Security assessment of the OWASP Juice Shop training application: review of web vulnerabilities (SQL injection, XSS, broken access control) and OSINT mapping of the attack surface.',mystartoRole:'Web Development Intern',mystartoCompany:'MyStarto · Côte d’Ivoire',mystartoDesc:'Contributed to the full-stack development of an e-commerce platform for refurbished products, covering the user interface and the management back office.',
-  eduTitle:'Education, languages &amp; <em>certifications.</em>',eduLead:'My academic background, working languages and training currently in progress.',currentStudies:'CURRENT STUDIES',uir:'International University of Rabat (UIR)',uirDesc:'School of Computer Science and Digital Technology · 5th-year cybersecurity programme, after an integrated preparatory course. Relevant courses: Cyber Threat Intelligence &amp; SOC, digital forensics, OS security, ISO 27001.',beforeStudies:'EARLIER STUDIES',bac:'Science-focused baccalaureate',bacDesc:'Burkina Faso · Initial scientific education.',langTitle:'Languages',langDesc:'Languages I use in communication and work.',frLabel:'French',frLevel:'Fluent · professional proficiency',enLabel:'English',enLevel:'Intermediate',certTitle:'Certifications &amp; training',certStatus:'In progress — not yet completed or awarded.',certOnboard:'Additional module in progress: OPSWAT Portal Orientation Guide (onboarding module).',
+  eduTitle:'Education, languages &amp; <em>certifications.</em>',eduLead:'My academic background, working languages and training currently in progress.',currentStudies:'CURRENT STUDIES',uir:'International University of Rabat (UIR)',uirDesc:'School of Computer Science and Digital Technology · 5th-year cybersecurity programme, after an integrated preparatory course. Relevant courses: Cyber Threat Intelligence &amp; SOC, digital forensics, OS security, ISO 27001.',beforeStudies:'EARLIER STUDIES',bac:'Science-focused baccalaureate',bacDesc:'Burkina Faso · Initial scientific education.',langTitle:'Languages',langDesc:'Languages I use in communication and work.',frLabel:'French',frLevel:'Fluent · professional proficiency',enLabel:'English',enLevel:'Intermediate',certTitle:'Certifications &amp; training',certStatus:'Training in progress: certifications and badges not yet earned.',inProgress:'In progress',certOnboard:'Additional module in progress: OPSWAT Portal Orientation Guide (onboarding module).',
   contactTitle:'Let’s build <em>what comes next.</em>',contactText:'Looking for a final-year intern for your SOC? I am ready to contribute to monitoring, alert triage and incident response within your team.',contactButton:'Connect on LinkedIn ↗',cvLabel:'03 / CV',cvDownload:'Download my SOC CV (English PDF)',mailLabel:'04 / EMAIL',footerText:'Professional portfolio · SOC version',backTop:'Back to top ↑'}
 };
 const root=document.documentElement,fr=document.getElementById('fr'),en=document.getElementById('en'),theme=document.getElementById('theme'),mobile=document.getElementById('mobile'),nav=document.getElementById('main-nav');
